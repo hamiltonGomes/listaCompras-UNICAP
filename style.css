@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #F8F9FA;
+  color: black;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 2%;
+  line-height: 1.5;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.inputsPrimeiraSection {
+  border: 1px solid #a1a1a1;
+  font-size: 22px;
+  border-radius: 2.5em;
+  text-align: center;
+  cursor: auto;
+  height: 40px;
+  width: 220px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type=button] {
+  border-radius: 2.5em;
+  width: 10rem;
+  height: 2rem;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+
+#btAdicionar:hover {
+  background-color: white;
+  color: #57b657;
+  border: 1px solid #57b657;
+}
+
+#btLimpar:hover {
+  background-color: white;
+  color: #ff6961;
+  border: 1px solid #ff6961;
+}
+
+table {
+  margin-top: 2%;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  text-align: center;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+#btAdicionar {
+  background-color: #57b657;
+  color: white;
+}
+
+#btLimpar {
+  background-color: #ff6961;
+  color: white;
+}
+
+#titulos {
+  background-color: #a1a1a1;
+}
+
+#inputsSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#buttonsSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1%;
+  gap: 2%;
+}
